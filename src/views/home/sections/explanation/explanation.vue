@@ -1,6 +1,6 @@
 <!-- Template -->
 <template>
-  <div class="explanation-section">
+  <div class="artists-section">
     <div class="general text-center mb-5">
       <h2 class="mb-4">Venezuela’s government wants to block the aids</h2>
       <p class="pt-2 mb-4">Venezuela is suffering. Not that long ago, it was the wealthiest 
@@ -35,7 +35,7 @@
 <script>
 
 export default {
-  name: 'explanation-section',
+  name: 'artists-section',
   components: {},
   data() {
     return {};

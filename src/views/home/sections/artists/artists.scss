@@ -1,0 +1,116 @@
+.artists-section {
+  .artist {
+    width: 270px;
+    height: 270px;
+    background-color: black;
+    position: relative;
+
+    &--1 {
+      background-image: url('../../../../assets/artists/alejandro-sanz.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--2 {
+      background-image: url('../../../../assets/artists/alesso.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--3 {
+      background-image: url('../../../../assets/artists/danny-ocean.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--4 {
+      background-image: url('../../../../assets/artists/juan-luis-guerra.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--5 {
+      background-image: url('../../../../assets/artists/juanes.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--6 {
+      background-image: url('../../../../assets/artists/nacho.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--7 {
+      background-image: url('../../../../assets/artists/paulina-rubio.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--8 {
+      background-image: url('../../../../assets/artists/silvestre-dangond.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--9 {
+      background-image: url('../../../../assets/artists/carlos-vives.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--10 {
+      background-image: url('../../../../assets/artists/luis-fonsi.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--11 {
+      background-image: url('../../../../assets/artists/maluma.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--12 {
+      background-image: url('../../../../assets/artists/rudy-mancuso.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--13 {
+      background-image: url('../../../../assets/artists/mana.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--14 {
+      background-image: url('../../../../assets/artists/reik.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--15 {
+      background-image: url('../../../../assets/artists/lele-pons.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &--16 {
+      background-image: url('../../../../assets/artists/fonseca.jpg');
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &__footer {
+      background-color: rgba(0, 0, 0, 0.4);
+      bottom: 0;
+      color: #FFFFFF;
+      font-size: 19px;
+      padding: 10px;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}

@@ -5,6 +5,7 @@
     <counter-section class="p-5 mb-5"></counter-section>
     <banner-section class="mb-5"></banner-section>
     <explanation-section class="py-5 container"></explanation-section>
+    <artists-section class="container"></artists-section>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import heroSection from './sections/hero/hero.vue';
 import counterSection from './sections/counter/counter.vue';
 import bannerSection from './sections/banner/banner.vue';
 import explanationSection from './sections/explanation/explanation.vue';
+import artistsSection from './sections/artists/artists.vue';
 
 export default {
   name: 'home-view',
@@ -23,7 +25,8 @@ export default {
     'hero-section': heroSection,
     'counter-section': counterSection,
     'banner-section': bannerSection,
-    'explanation-section': explanationSection
+    'explanation-section': explanationSection,
+    'artists-section': artistsSection
   },
   data() {
     return {};
