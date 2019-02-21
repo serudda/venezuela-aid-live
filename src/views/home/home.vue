@@ -1,6 +1,6 @@
 <!-- Template -->
 <template>
-  <div class="home-view">
+  <div class="home-view mb-5 pb-5">
     <hero-section class="p-5 mx-3 mt-3"></hero-section>
     <counter-section class="p-5 mb-5"></counter-section>
     <banner-section class="mb-5"></banner-section>
