@@ -43,7 +43,6 @@
       // update every second
       this.interval = setInterval(() => {
         const date = this.calculateCountdown(this.deadline);
-        console.log('date: ', date);
         if(date) {
           this.date = date;
         } else { this.stop() }
