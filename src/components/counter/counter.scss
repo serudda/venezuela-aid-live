@@ -1,0 +1,35 @@
+.val-counter {
+  .digit {
+    align-items: center;
+    background: map-get($color, white);
+    border: 1px solid map-get($color, black);
+    margin-right: 15px;
+    min-width: 100px;
+    justify-content: center;
+    padding: 25px 0;
+    z-index: 1;
+    @extend .border-radius-lg;
+
+    .text {
+      color: map-get($color, black);
+      font-style: normal;
+      font-stretch: normal;
+    }
+
+    &__number {
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 0.8;
+    }
+
+    &__label {
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

@@ -12,7 +12,7 @@
   </nav>
 </template>
 
-<script lang="ts">
+<script>
   import './header.scss';
 
   export default {

@@ -2,7 +2,7 @@
 <template>
   <div class="counter-section container text-center">
     <h3 class="color-secondary mb-4">International Music Benefit Live-streaming in:</h3>
-    <div class="counter"></div>
+    <val-counter></val-counter>
   </div>
 </template>
 
@@ -10,9 +10,13 @@
 <script>
 import './counter.scss';
 
+import counter from '../../../../components/counter/counter.vue';
+
 export default {
   name: 'counter-section',
-  components: {},
+  components: {
+    'val-counter': counter
+  },
   data() {
     return {};
   },

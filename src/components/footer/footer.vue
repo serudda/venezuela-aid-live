@@ -40,7 +40,7 @@
   </footer>
 </template>
 
-<script lang="ts">
+<script>
   import './footer.scss';
 
   export default {
