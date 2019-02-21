@@ -6,10 +6,13 @@
   box-shadow: none;
   cursor: pointer;
   display: inline-block;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.3px;
   outline: none;
   text-align: center;
   text-decoration: none;
-  text-rendering: optimizeLegibility;
   text-shadow: none;
   transition: background 300ms ease-out;
   user-select: none;
@@ -19,7 +22,7 @@
   ///BUTTON-SIZE
   &--lg {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 900;
     padding: 12px 33px;
   }
 

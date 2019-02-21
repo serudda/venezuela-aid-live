@@ -13,13 +13,18 @@
       color: map-get($color, secondary);
       display: flex;
       font-size: 26px;
-      font-weight: 400;
+      font-weight: 600;
       font-style: normal;
       font-stretch: normal;
       line-height: normal;
       letter-spacing: 0.7px;
       padding: 10px 35px 10px;
       @extend .link-reset;
+
+      &:hover {
+        color: map-get($color, black);
+        text-decoration: underline !important;
+      }
     }
 
     .val-btn {
