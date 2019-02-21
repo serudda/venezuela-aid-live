@@ -7,8 +7,8 @@
       <span class="text date__city">CÚCUTA</span>
       <span class="text date__country">COLOMBIA</span>
     </div>
-    <div class="message d-flex align-items-center justify-content-center">
-      <span class="color-white">Help to let aid in to Venezuela</span>
+    <div class="message d-flex align-items-center justify-content-center px-lg-4">
+      <span class="color-white">{{ $t('home.banner-section.title') }}</span>
     </div>
     <div class="overlay"></div>
   </div>

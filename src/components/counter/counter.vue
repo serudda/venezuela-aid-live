@@ -2,7 +2,7 @@
   <div class="val-counter">
     <div class="digit digit--day d-inline-flex flex-column">
       <span class="text digit__number">{{addLeadingZeros(date.days)}}</span>
-      <span class="text digit__label">Dia</span>
+      <span class="text digit__label">{{ $t('home.counter-section.day-label') }}</span>
     </div>
     <div class="digit digit--hour d-inline-flex flex-column">
       <span class="text digit__number">{{addLeadingZeros(date.hours)}}</span>
@@ -14,7 +14,7 @@
     </div>
     <div class="digit digit--sec d-inline-flex flex-column">
       <span class="text digit__number">{{addLeadingZeros(date.sec)}}</span>
-      <span class="text digit__label">Seg.</span>
+      <span class="text digit__label">{{ $t('home.counter-section.second-label') }}</span>
     </div>
   </div>
 </template>

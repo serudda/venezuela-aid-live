@@ -1,7 +1,7 @@
 <!-- Template -->
 <template>
   <div class="artists-section">
-    <h2 class="mb-4 text-center">Invited artists</h2>
+    <h2 class="mb-4 text-center">{{ $t('home.artists-section.title') }}</h2>
 
     <div class="row mb-5">
       <div class="col-12">
@@ -95,7 +95,7 @@
 
     <div class="d-flex justify-content-center">
       <div class="w-50">
-        <button id="gvng-donate" class="val-btn val-btn--primary val-btn--lg val-btn--block border-radius-lg">DONATE NOW</button>
+        <button id="gvng-donate" class="val-btn val-btn--primary val-btn--lg val-btn--block border-radius-lg">{{ $t('global.donate-btn') }}</button>
       </div>
     </div>
     

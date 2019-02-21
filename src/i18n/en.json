@@ -1,0 +1,41 @@
+{
+  "__GLOBAL__": "",
+  "global": {
+		"zone": "es-ES",
+		"donate-btn": "DONATE NOW"
+  },
+
+	"__HOME PAGE__": "",
+	"home": {
+		"hero-section": {
+			"title": "Venezuelans have an urgent need for help",
+			"description": "Our goal is to raise $10 million dollars and $100 million dollars in humanitarian aid from governments and NGOs and reopen Venezuela´s border so humanitarian aid can finally reach those millions who need it the most.",
+			"help-text": "A small donation makes a huge difference"
+		},
+		"counter-section": {
+			"title": "International Music Benefit Live-streaming in:",
+			"day-label": "Day",
+			"second-label": "Sec."
+		},
+		"banner-section": {
+			"title": "Help to let aid in to Venezuela"
+		},
+		"explanation-section": {
+			"general-title": "Venezuela’s government wants to block the aids",
+			"general-description": "Venezuela is suffering. Not that long ago, it was the wealthiest country in South America. Now it is facing the worst humanitarian crisis in the Western Hemisphere. Over 3 million Venezuelans have been displaced in the region – a number that is growing every day. There is no food; the health system is crumbling; and millions are feeling the impacts, many of them children and old people.",
+			"general-description2": "Despite this situation armed forces of Venezuela under the power of Maduro don’t want the aids to enter to the country, together we can change that and demonstrate the world the power of union and organization",
+			"details-title": "About the concert",
+			"details-description": "This historic concert will take place on February 22nd in Cúcuta, Colombia, located on Venezuela’s border. Featuring a fantastic line-up of international and regional artists, the concert will also be live-streamed to millions around the world.",
+			"details-title2": "Why we’re doing it",
+			"details-description2": "This international concert will bring global attention to this unacceptable and preventable crisis and raise funds for essential humanitarian aid for Venezuelan refugees."
+		},
+		"artists-section": {
+			"title": "Invited artists"
+		},
+		"footer": {
+			"title": "Sponsored by:"
+		}
+	},
+
+	"": ""
+}

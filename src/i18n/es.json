@@ -1,0 +1,41 @@
+{
+  "__GLOBAL__": "",
+  "global": {
+		"zone": "es-ES",
+		"donate-btn": "DONAR AHORA"
+  },
+
+	"__HOME PAGE__": "",
+	"home": {
+		"hero-section": {
+			"title": "La población venezolana necesita ayuda urgente",
+			"description": "Nuestra meta es recaudar $10 millones de dólares inicialmente, y $100 millones más adelante, en ayuda humanitaria de gobiernos y ONGs, y reabrir la frontera de Venezuela para que toda la ayuda humanitaria pueda llegar a los millones que la necesitan.",
+			"help-text": "Una pequeña donación hace una gran diferencia."
+		},
+		"counter-section": {
+			"title": "El concierto internacional estará disponible en vivo en:",
+			"day-label": "Dia",
+			"second-label": "Seg."
+		},
+		"banner-section": {
+			"title": "Apóyanos para permitir la entrada de ayuda humanitaria a Venezuela"
+		},
+		"explanation-section": {
+			"general-title": "El gobierno venezolano quiere bloquear esta ayuda",
+			"general-description": "Venezuela está sufriendo. No hace mucho, era el país más rico en Sur América. Ahora, está sufriendo la peor crisis humanitaria de occidente. Más de 3 millones de venezolanos han sido desplazados en la región – una cifra que crece diariamente. No hay comida; el sistema de salud se está desmoronando y millones están sintiendo el impacto, muchos de ellos niños y adultos mayores.",
+			"general-description2": "A pesar de esta situación, las fuerzas armadas de Venezuela, bajo el mando de Maduro, no están permitiendo que las ayudas entren al país. Juntos, podemos cambiar esta situación y mostrarle al mundo el poder de la unión y la organización.",
+			"details-title": "Acerca del concierto",
+			"details-description": "Este histórico concierto será llevado a cabo el 22 de febrero en Cúcuta, Colombia, ubicada en la frontera con Venezuela.Contará con una fantástica selección de artistas regionales e internacionales. El concierto también estará disponible en streaming a nivel mundial.",
+			"details-title2": "¿Por qué lo hacemos?",
+			"details-description2": "Este concierto internacional traerá atención global a esta inaceptable y previsible crisis y recaudará fondos para llevar ayuda humanitaria esencial para los venezolanos."
+		},
+		"artists-section": {
+			"title": "Artistas invitados"
+		},
+		"footer": {
+			"title": "Auspiciado por:"
+		}
+	},
+
+	"": ""
+}
