@@ -1,7 +1,7 @@
 <template>
   <footer class="val-footer">
 
-    <p class="my-5">Sponsored by:</p>
+    <p class="my-5">{{ $t('home.footer.title') }}</p>
 
     <div class="partners-list mb-5">
       <div class="partner">

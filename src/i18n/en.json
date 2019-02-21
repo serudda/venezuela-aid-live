@@ -4,9 +4,13 @@
 		"zone": "es-ES",
 		"donate-btn": "DONATE NOW"
   },
-
-	"__HOME PAGE__": "",
+  "__HOME PAGE__": "",
 	"home": {
+    "header": {
+      "press-btn": "PRESS",
+      "q&a-btn": "Q&A",
+      "donate-btn": "DONATE"
+    },
 		"hero-section": {
 			"title": "Venezuelans have an urgent need for help",
 			"description": "Our goal is to raise $10 million dollars and $100 million dollars in humanitarian aid from governments and NGOs and reopen Venezuela´s border so humanitarian aid can finally reach those millions who need it the most.",

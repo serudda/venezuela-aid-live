@@ -4,9 +4,13 @@
 		"zone": "es-ES",
 		"donate-btn": "DONAR AHORA"
   },
-
 	"__HOME PAGE__": "",
 	"home": {
+    "header": {
+      "press-btn": "PRENSA",
+      "q&a-btn": "PQRS",
+      "donate-btn": "DONAR"
+    },
 		"hero-section": {
 			"title": "La población venezolana necesita ayuda urgente",
 			"description": "Nuestra meta es recaudar $10 millones de dólares inicialmente, y $100 millones más adelante, en ayuda humanitaria de gobiernos y ONGs, y reabrir la frontera de Venezuela para que toda la ayuda humanitaria pueda llegar a los millones que la necesitan.",

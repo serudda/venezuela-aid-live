@@ -21,6 +21,15 @@
       padding: 10px 35px 10px;
       @extend .link-reset;
 
+      &.language {
+        color: map-get($color, tertiary);
+        text-decoration: underline;
+
+        &:hover {
+          color: map-get($color, darkTertiary) !important;
+        }
+      }
+
       &:hover {
         color: map-get($color, black);
         text-decoration: underline !important;
