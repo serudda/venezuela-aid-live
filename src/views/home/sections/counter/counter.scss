@@ -1,0 +1,12 @@
+.counter-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .counter {
+    width: 80%;
+    height: 200px;
+    background-color: map-get($color, smoke);
+  }
+}

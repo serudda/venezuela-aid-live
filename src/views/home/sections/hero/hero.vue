@@ -1,6 +1,6 @@
 <!-- Template -->
 <template>
-  <div class="hero-section p-5">
+  <div class="hero-section">
     <div class="row no-gutters" style="min-height: 460px;">
       <div class="col-5 p-4 pr-5" style="display: flex;
     flex-direction: column;
