@@ -1,0 +1,64 @@
+.val-btn {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  border: 0 hidden transparent;
+  box-shadow: none;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  text-shadow: none;
+  transition: background 300ms ease-out;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  ///BUTTON-SIZE
+  &--lg {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 33px;
+  }
+
+  &--block {
+    display: block;
+    white-space: normal;
+    width: 100%;
+  }
+
+
+  ///BUTTON-COLOR
+  &--primary {
+    background-color: map-get($color, primary);
+    border: 3px solid map-get($color, secondary);
+    color: map-get($color, secondary);
+
+    &:hover {
+      background-color: map-get($color, darkPrimary);
+      text-decoration: none;
+    }
+
+    &:focus {
+      background-color: map-get($color, darkPrimary);
+      text-decoration: none;
+      outline: none;
+      text-decoration: none;
+    }
+  }
+
+}
+
+///BUTTON DISABLED
+
+.val-btn[disabled] {
+  cursor: default;
+  opacity: .4;
+  pointer-events: none;
+
+  &:hover {
+    background-color: initial;
+  }
+}

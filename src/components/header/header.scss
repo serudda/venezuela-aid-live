@@ -1,0 +1,29 @@
+.val-header {
+  box-shadow: 0 4px 4px 0 rgba(164, 164, 164, 0.5);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+  .val-nav {
+    align-items: center;
+    display: flex;
+
+    &__item {
+      align-items: center;
+      color: map-get($color, secondary);
+      display: flex;
+      font-size: 26px;
+      font-weight: 400;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.7px;
+      padding: 10px 35px 10px;
+      @extend .link-reset;
+    }
+
+    .val-btn {
+      margin-left: 35px;
+    }
+  }
+}

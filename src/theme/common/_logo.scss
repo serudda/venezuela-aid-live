@@ -1,0 +1,15 @@
+.val-logo {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+
+  &__icon {
+    background-image: url('./../assets/logo.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    height: 4rem;
+    min-width: 21rem;
+  }
+}

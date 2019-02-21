@@ -1,0 +1,75 @@
+@mixin input {
+  -moz-border-radius: 3px;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  -webkit-border-radius: 3px;
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  background-color: map-get($color, white);
+  border-radius: 3px;
+  border: 1px solid map-get($color, extraDarkSmoke);
+  color: map-get($color, slate);
+  display: block;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.sr-input {
+  @include input;
+
+  &.error {
+    border-color: map-get($color, negative);
+  }
+
+  &::-moz-placeholder {
+    color: map-get($color, extraDarkSmoke);
+  }
+
+  &::-webkit-input-placeholder {
+    color: map-get($color, extraDarkSmoke);
+  }
+
+  &::placeholder {
+    color: map-get($color, extraDarkSmoke);
+  }
+
+  &:hover {
+    border-color: map-get($color, slate);
+    outline: 0;
+  }
+
+  &:focus {
+    border-color: map-get($color, secondary);
+    outline: 0;
+  }
+
+  &--sm {
+    font-size: 13px;
+    height: 30px;
+    padding: 0 10px;
+  }
+
+  &--md {
+    font-size: 15px;
+    height: 40px;
+    padding: 0 14px;
+  }
+
+  &--lg {
+    font-size: 18px;
+    height: 60px;
+    padding: 0 16px;
+  }
+
+  &--block {
+    width: 100%;
+  }
+}
+
+///BUTTON DISABLED
+
+.sr-input[disabled] {
+  background-color: map-get($color, darkSnow);
+  color: map-get($color, silver);
+
+  &:hover {
+    border-color: initial;
+  }
+}
