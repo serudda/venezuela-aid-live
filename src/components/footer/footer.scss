@@ -24,3 +24,39 @@
     }
   }
 }
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(md) {
+  .val-footer {
+    .partners-list {
+      flex-direction: column;
+
+      .partner {
+        margin-bottom: 50px;
+        margin-right: 0;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(sm) {
+  .val-footer {
+    .partners-list {
+      flex-direction: column;
+
+      .partner {
+        margin-bottom: 50px;
+        margin-right: 0;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

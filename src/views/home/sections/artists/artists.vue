@@ -95,7 +95,7 @@
 
     <div class="d-flex justify-content-center">
       <div class="w-50">
-        <button class="val-btn val-btn--primary val-btn--lg val-btn--block border-radius-lg">DONATE NOW</button>
+        <button id="gvng-donate" class="val-btn val-btn--primary val-btn--lg val-btn--block border-radius-lg">DONATE NOW</button>
       </div>
     </div>
     

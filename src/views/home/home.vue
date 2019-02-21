@@ -1,7 +1,7 @@
 <!-- Template -->
 <template>
   <div class="home-view mb-5 pb-5">
-    <hero-section class="p-5 mx-3 mt-3"></hero-section>
+    <hero-section class="p-4 p-lg-5 mx-lg-3 mt-lg-3"></hero-section>
     <counter-section class="p-5 mb-5"></counter-section>
     <banner-section class="mb-5"></banner-section>
     <explanation-section class="py-5 container"></explanation-section>

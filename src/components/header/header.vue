@@ -7,7 +7,7 @@
     <div class="val-nav">
       <a class="val-nav__item" href="/my-space">PRESS</a>
       <a class="val-nav__item" href="/now">Q&A</a>
-      <button class="val-btn val-btn--primary val-btn--lg border-radius-lg">DONATE NOW</button>
+      <button id="gvng-donate" class="val-btn val-btn--primary val-btn--lg border-radius-lg">DONATE NOW</button>
     </div>
   </nav>
 </template>

@@ -13,16 +13,16 @@
       we can change that and demonstrate the world the power of union and organization.</p>
     </div>
     <div class="details pt-4">
-      <div class="row no-glutters">
-        <div class="col-6 pr-5">
+      <div class="row no-glutters text-center text-lg-left">
+        <div class="col-12 col-lg-6 pr-3 pr-lg-5">
           <h2 class="mb-4">About the concert</h2>
           <p class="pt-2">This historic concert will take place on February 22nd in Cúcuta, 
             Colombia, located on Venezuela’s border. Featuring a fantastic line-up 
             of international and regional artists, the concert will also be 
             live-streamed to millions around the world.</p>
         </div>
-        <div class="col-6 pl-5">
-          <h2 class="mb-4">Why we’re doing it</h2>
+        <div class="col-12 col-lg-6 pl-3 pl-lg-5">
+          <h2 class="mb-4 pt-4 pt-lg-0">Why we’re doing it</h2>
           <p class="pt-2">This international concert will bring global attention to this unacceptable and preventable 
             crisis and raise funds for essential humanitarian aid for Venezuelan refugees.</p>
         </div>

@@ -13,3 +13,36 @@
     min-width: 21rem;
   }
 }
+
+// Large devices (desktops, less than 1200px)
+@include media-breakpoint-down(xl) {
+  .val-logo {
+    &__icon {
+      background-size: 20rem;
+      height: 4rem;
+      min-width: 21rem;
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(md) {
+  .val-logo {
+    &__icon {
+      background-size: 18rem;
+      height: 4rem;
+      min-width: 4rem;
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(sm) {
+  .val-logo {
+    &__icon {
+      background-size: 18rem;
+      height: 4rem;
+      min-width: 4rem;
+    }
+  }
+}

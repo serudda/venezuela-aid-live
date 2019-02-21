@@ -33,3 +33,30 @@
     }
   }
 }
+
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(md) {
+  .val-counter {
+    .digit {
+      margin: 5px;
+
+      &:last-child {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(sm) {
+  .val-counter {
+    .digit {
+      margin: 5px;
+
+      &:last-child {
+        margin-right: 5px;
+      }
+    }
+  }
+}

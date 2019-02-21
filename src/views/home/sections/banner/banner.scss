@@ -69,3 +69,71 @@
     position: absolute;
   }
 }
+
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(md) {
+  .banner-section {
+    height: 155px;
+
+    .date {
+      min-width: 100px;
+
+      &__day {
+        font-size: 50px;
+      }
+
+      &__month {
+        font-size: 35px;
+      }
+
+      &__city {
+        font-size: 15px;
+      }
+
+      &__country {
+        font-size: 10px;
+      }
+
+    }
+
+    .message {
+      font-size: 1.5rem;
+      line-height: 1.2;
+      text-align: center;
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-down(sm) {
+  .banner-section {
+    height: 155px;
+
+    .date {
+      min-width: 100px;
+
+      &__day {
+        font-size: 50px;
+      }
+
+      &__month {
+        font-size: 35px;
+      }
+
+      &__city {
+        font-size: 15px;
+      }
+
+      &__country {
+        font-size: 10px;
+      }
+    }
+
+    .message {
+      font-size: 1.5rem;
+      line-height: 1.2;
+      text-align: center;
+    }
+  }
+}
